@@ -19,7 +19,7 @@ const Home = () => {
           <img 
             src={flowerImage} 
             alt="Flower Arrangements" 
-            className="rounded-lg max-w-full xl:w-full lg:w-full md:w-1/3 h-auto"
+            className="rounded-lg max-w-full xl:w-full lg:w-full mt-10 md:w-1/3 h-auto"
           />
         </div>
         
