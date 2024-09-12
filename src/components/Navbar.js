@@ -73,12 +73,12 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/about" className={`block ${scrolled || isOpen ? 'text-white' : 'text-white'} hover:text-gray-400`}>
-              About Me
+              About Us
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" className={`block ${scrolled || isOpen ? 'text-white' : 'text-white'} hover:text-gray-400`}>
-              Projects
+            <Link to="/faqs" className={`block ${scrolled || isOpen ? 'text-white' : 'text-white'} hover:text-gray-400`}>
+              FAQs
             </Link>
           </li>
           <li>
