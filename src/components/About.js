@@ -26,15 +26,17 @@ const About = () => {
           {/* Left-side squares */}
           <div className="grid grid-cols-1 gap-4">
             {/* Square 1 */}
-            <div className="bg-gray-500 w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-white mb-2">Who is Calli?</h3>
-              <p className="text-white">She is the furry muse behind Love, Calli. With soft purrs and playful antics, she has inspired a world where dried flowers and delicious pastries come together to create moments of joy.</p>
+            <div className="w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg bg-white bg-opacity-70 backdrop-blur-sm">
+              <h3 className="text-xl font-bold text-black mb-2">Who is Calli?</h3>
+              <p className="text-black">
+                She is the furry muse behind Love, Calli. With soft purrs and playful antics, she has inspired a world where dried flowers and delicious pastries come together to create moments of joy.
+              </p>
             </div>
 
             {/* Square 2 */}
-            <div className="bg-gray-500 w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-white mb-2">Why Dried Flowers?</h3>
-              <p className="text-white">It’s better to gift someone preserved flowers because fresh flowers eventually wilt and die, but preserved flowers stay beautiful for much longer, capturing moments of joy for years to come.</p>
+            <div className="w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg bg-white bg-opacity-70 backdrop-blur-sm">
+              <h3 className="text-xl font-bold text-black mb-2">Why Dried Flowers?</h3>
+              <p className="text-black">It’s better to gift someone preserved flowers because fresh flowers eventually wilt and die, but preserved flowers stay beautiful for much longer, capturing moments of joy for years to come.</p>
             </div>
           </div>
 
@@ -50,15 +52,15 @@ const About = () => {
           {/* Right-side squares */}
           <div className="grid grid-cols-1 gap-4">
             {/* Square 4 */}
-            <div className="bg-gray-500 w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-white mb-2">Why Choose Us?</h3>
-              <p className="text-white">At Love, Calli, we offer a unique combination of beautiful preserved flowers and delicious pastries, creating a perfect gift that delights both the eyes and the taste buds. We’re committed to providing products that create lasting memories.</p>
+            <div className="w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg bg-white bg-opacity-70 backdrop-blur-sm">
+              <h3 className="text-xl font-bold text-black mb-2">Why Choose Us?</h3>
+              <p className="text-black">At Love, Calli, we offer a unique combination of beautiful preserved flowers and delicious pastries, creating a perfect gift that delights both the eyes and the taste buds. We’re committed to providing products that create lasting memories.</p>
             </div>
 
             {/* Square 5 */}
-            <div className="bg-gray-500 w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-white mb-2">Who Are the People Behind Love, Calli?</h3>
-              <p className="text-white">Love, Calli is lovingly run by Calli’s mom and family, who are passionate about bringing beauty and sweetness into the lives of others through our flowers and pastries.</p>
+            <div className="w-full h-64 flex flex-col items-center justify-center text-center p-4 shadow-lg bg-white bg-opacity-70 backdrop-blur-sm">
+              <h3 className="text-xl font-bold text-black mb-2">Who Are the People Behind Love, Calli?</h3>
+              <p className="text-black">Love, Calli is lovingly run by Calli’s mom and family, who are passionate about bringing beauty and sweetness into the lives of others through our flowers and pastries.</p>
             </div>
           </div>
         </div>
