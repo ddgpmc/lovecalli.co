@@ -6,7 +6,7 @@ import flowerImage from '../assets/callipic.png'; // Image of the flower arrange
 const Home = () => {
   return (
     <div
-      className="absolute inset-0 bg-cover bg-center flex items-center justify-center"
+      className="absolute inset-0 bg-cover bg-centerflex items-center justify-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-20"></div> {/* Background overlay */}
@@ -19,7 +19,7 @@ const Home = () => {
           <img 
             src={flowerImage} 
             alt="Flower Arrangements" 
-            className="rounded-lg max-w-full xl:w-full lg:w-full mt-10 md:w-1/3 h-auto"
+            className="rounded-lg max-w-full xl:w-full lg:w-full mt-16 md:w-1/3 h-auto"
           />
         </div>
         
