@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; // Import the social media icons
 import backgroundImage from '../assets/herobg.png'; // Background image
 import flowerImage from '../assets/callipic.png'; // Image of the flower arrangements
+import { Link } from 'react-router-dom'; // Import Link for internal navigation
 
 const Home = () => {
   return (
@@ -32,12 +33,12 @@ const Home = () => {
             <p className="text-base sm:text-lg md:text-xl mb-6">
               At Love, Calli, we specialize in creating stunning dried flower arrangements that brighten up any space and add a touch of elegance to your home. But that's not all—our offerings are paired with delicious pastries that make every moment a little sweeter!
             </p>
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="inline-block px-6 py-3 text-lg font-semibold text-white bg-gray-800 rounded hover:bg-gray-600"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
