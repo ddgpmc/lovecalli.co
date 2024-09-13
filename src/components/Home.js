@@ -6,26 +6,26 @@ import flowerImage from '../assets/callipic.png'; // Image of the flower arrange
 const Home = () => {
   return (
     <div
-      className="absolute inset-0 bg-cover bg-centerflex items-center justify-center"
+      className="relative min-h-screen bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-20"></div> {/* Background overlay */}
       
       {/* Content Wrapper */}
-      <div className="relative flex flex-col md:flex-col lg:flex-row text-white text-center lg:text-left lg:bottom-6 lg:left-6 lg:ml-12 xl:ml-40 items-center">
+      <div className="relative flex flex-col lg:flex-row text-white text-center lg:text-left items-center lg:items-start lg:space-x-12 lg:px-12 p-6">
         
         {/* Image Section */}
         <div className="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
           <img 
             src={flowerImage} 
             alt="Flower Arrangements" 
-            className="rounded-lg max-w-full xl:w-full lg:w-full mt-16 md:w-1/3 h-auto"
+            className="rounded-lg w-2/3 lg:w-full xl:w-full h-auto"
           />
         </div>
         
         {/* Text and Button Section */}
-        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start">
-          <div className="p-6 rounded-lg bg-opacity-75 max-w-lg">
+        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start lg:mt-32">
+          <div className="p-6 bg-opacity-75 max-w-lg">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
               Welcome to Love, Calli
             </h1>
@@ -43,14 +43,14 @@ const Home = () => {
       </div>
 
       {/* Social Icons Section */}
-      <div className="absolute bottom-6 right-6 flex space-x-4 text-white">
+      <div className="absolute bottom-4 right-4 lg:bottom-6 lg:right-6 flex space-x-4 text-white">
         <a
           href="https://www.facebook.com/lovecalli.co"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-600"
         >
-          <FaFacebookF className="w-8 h-8" />
+          <FaFacebookF className="w-6 h-6 lg:w-8 lg:h-8" />
         </a>
         <a
           href="https://twitter.com"
@@ -58,7 +58,7 @@ const Home = () => {
           rel="noopener noreferrer"
           className="hover:text-blue-400"
         >
-          <FaTwitter className="w-8 h-8" />
+          <FaTwitter className="w-6 h-6 lg:w-8 lg:h-8" />
         </a>
         <a
           href="https://instagram.com/lovecalli.co"
@@ -66,7 +66,7 @@ const Home = () => {
           rel="noopener noreferrer"
           className="hover:text-pink-400"
         >
-          <FaInstagram className="w-8 h-8" />
+          <FaInstagram className="w-6 h-6 lg:w-8 lg:h-8" />
         </a>
       </div>
     </div>
