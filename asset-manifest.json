@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lovecalli.co/static/css/main.42f8449a.css",
-    "main.js": "/lovecalli.co/static/js/main.f41f105b.js",
+    "main.js": "/lovecalli.co/static/js/main.f5b65ad4.js",
     "static/media/callipic.png": "/lovecalli.co/static/media/callipic.873149d7b99d683084f0.png",
     "static/media/herobg.png": "/lovecalli.co/static/media/herobg.ca8634c9f02c862cdb6a.png",
     "static/media/cake3.jpg": "/lovecalli.co/static/media/cake3.c3790265a8812f801d45.jpg",
     "index.html": "/lovecalli.co/index.html",
     "main.42f8449a.css.map": "/lovecalli.co/static/css/main.42f8449a.css.map",
-    "main.f41f105b.js.map": "/lovecalli.co/static/js/main.f41f105b.js.map"
+    "main.f5b65ad4.js.map": "/lovecalli.co/static/js/main.f5b65ad4.js.map"
   },
   "entrypoints": [
     "static/css/main.42f8449a.css",
-    "static/js/main.f41f105b.js"
+    "static/js/main.f5b65ad4.js"
   ]
 }
