@@ -16,7 +16,7 @@ const FAQs = () => {
         <ul className="space-y-6">
           <li className="bg-white shadow-md p-6 rounded-lg">
             <h2 className="text-xl font-medium text-gray-700">Where are you located?</h2>
-            <p className="mt-2 text-gray-600">We are located at 123 Flower Lane, City, Country.</p>
+            <p className="mt-2 text-gray-600">We are located at Taguig City, Philippines.</p>
           </li>
           <li className="bg-white shadow-md p-6 rounded-lg">
             <h2 className="text-xl font-medium text-gray-700">What types of flowers do you offer?</h2>
@@ -24,7 +24,7 @@ const FAQs = () => {
           </li>
           <li className="bg-white shadow-md p-6 rounded-lg">
             <h2 className="text-xl font-medium text-gray-700">Do you deliver?</h2>
-            <p className="mt-2 text-gray-600">Yes, we offer delivery services nationwide with special packaging to ensure your flowers arrive fresh and intact.</p>
+            <p className="mt-2 text-gray-600">For deliveries, we currently don't offer direct delivery services. However, we highly recommend booking trusted courier services like Lalamove, Grab, Move It, or Angkas to handle the delivery for you. These services ensure reliable and quick transport.</p>
           </li>
           <li className="bg-white shadow-md p-6 rounded-lg">
             <h2 className="text-xl font-medium text-gray-700">Can I customize my bento cake design?</h2>
@@ -32,7 +32,7 @@ const FAQs = () => {
           </li>
           <li className="bg-white shadow-md p-6 rounded-lg">
             <h2 className="text-xl font-medium text-gray-700">How can I place an order?</h2>
-            <p className="mt-2 text-gray-600">You can place an order through our website or contact us directly through our social media channels.</p>
+            <p className="mt-2 text-gray-600">You can contact us directly through our social media channels.</p>
           </li>
         </ul>
       </div>
