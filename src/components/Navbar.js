@@ -82,9 +82,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a href="mailto:youremail@gmail.com" className={`block ${scrolled || isOpen ? 'text-white' : 'text-white'} hover:text-gray-400`}>
-              Contact Me
-            </a>
+          <Link to="/contact" className={`block ${scrolled || isOpen ? 'text-white' : 'text-white'} hover:text-gray-400`}>
+              Contact Us
+            </Link>
           </li>
         </ul>
       </div>
